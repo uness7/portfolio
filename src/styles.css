@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  cursor: none;
+}
+
+html, body {
+  background-image: linear-gradient(to right, #374151 1px, transparent 1px),
+  linear-gradient(to bottom, #374151 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+.outline {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  border: 1px solid #E94549;
+  transition: all 200ms ease-out;
+  position: fixed;
+  pointer-events: none;
+  left: 0;
+  top: 0;
+  transform: translate(calc(-50% + 15px), -50%);
+  z-index: 9999;
+}
+
+.cursor {
+  width: 16px;
+  height: 16px;
+  border-radius: 100%;
+  background-color: black;
+  opacity: .5;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  transition: width .3s, height .3s, opacity .3s;
+  z-index: 9999;
+}
+
+.hover {
+  background-color: #E94549;
+  opacity: 0.5;
+  z-index: 9999;
+}
+
+
