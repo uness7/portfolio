@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/app.component.css"],
+  "sourcesContent": [".circle {\n  height: 24px;\n  width: 24px;\n  border-radius: 24px;\n  background-color: black;\n  position: fixed;\n  top: 0;\n  left: 0;\n  pointer-events: none;\n  z-index: 99999999; /* so that it stays on top of all other elements */\n}\n"],
+  "mappings": ";AAAA,CAAC;AACC,UAAQ;AACR,SAAO;AACP,iBAAe;AACf,oBAAkB;AAClB,YAAU;AACV,OAAK;AACL,QAAM;AACN,kBAAgB;AAChB,WAAS;AACX;",
+  "names": []
+}
