@@ -35535,6 +35535,7 @@ var BlogsComponent = class _BlogsComponent {
 
 // src/app/app.routes.ts
 var routes = [
+  { path: "", redirectTo: "/home", pathMatch: "full" },
   { path: "home", component: HomeComponent },
   { path: "projects", component: ProjectsComponent },
   { path: "blog", component: BlogsComponent }
