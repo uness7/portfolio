@@ -6,45 +6,8 @@
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      //Cursor
-      let outline = document.querySelector('.outline');
-      let cursor = document.querySelector('.cursor');
-      let a = document.querySelectorAll('a');
-
-      if (outline && cursor) {
-        document.addEventListener('mousemove', function(e) {
-          let x = e.clientX;
-          let y = e.clientY;
-          outline.style.transform = `translate(calc(${x}px - 50%), calc(${y}px - 50%))`;
-        });
-
-        document.addEventListener('mousemove', function(e) {
-          let x = e.clientX;
-          let y = e.clientY;
-          cursor.style.left = x + 'px';
-          cursor.style.top = y + 'px';
-        });
-
-        a.forEach(item => {
-          item.addEventListener('mouseover', () => {
-            outline.classList.add('hover');
-          });
-          item.addEventListener('mouseleave', () => {
-            outline.classList.remove('hover');
-          });
-        });
-      } else {
-        console.error("Cursor or outline element not found in the DOM.");
-      }
-    });
-  </script>
-
 <link rel="stylesheet" href="styles.css"></head>
 <body class="bg-gray-900 font-mono text-white min-h-screen">
-  <div class="outline"></div>
-  <div class="cursor"></div>
   <app-root></app-root>
 <script src="polyfills.js" type="module"></script><script src="main.js" type="module"></script></body>
 </html>

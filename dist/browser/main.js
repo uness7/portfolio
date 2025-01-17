@@ -35371,7 +35371,7 @@ var ProjectComponent = class _ProjectComponent {
   static \u0275fac = function ProjectComponent_Factory(__ngFactoryType__) {
     return new (__ngFactoryType__ || _ProjectComponent)();
   };
-  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _ProjectComponent, selectors: [["app-project"]], inputs: { project: "project" }, decls: 18, vars: 6, consts: [[1, "font-bold", "text-3xl", "text-white", "mb-4"], [1, "flex", "flex-col", "lg:flex-row-reverse", "gap-6"], [1, "w-full", "lg:w-1/2"], ["controls", "", 1, "w-full", "h-auto", "rounded-lg", "shadow-lg"], ["type", "video/mp4", 3, "src"], ["type", "video/webm", 3, "src"], [1, "text-lg", "text-white", "mb-2"], [1, "text-md", "text-gray-300", "mb-2"], [1, "text-md", "text-blue-400", "hover:text-blue-300"], ["target", "_blank", 3, "href"]], template: function ProjectComponent_Template(rf, ctx) {
+  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _ProjectComponent, selectors: [["app-project"]], inputs: { project: "project" }, decls: 18, vars: 6, consts: [[1, "font-bold", "text-xl", "lg:text-3xl", "w-full", "text-white", "lg:mb-4"], [1, "flex", "flex-col", "lg:flex-row-reverse", "gap-6"], [1, "w-full", "h-[210px]", "lg:w-1/2"], ["controls", "", 1, "w-[250px]", "lg:w-full", "h-[200px]", "lg:h-auto", "rounded-lg", "shadow-lg"], ["type", "video/mp4", 3, "src"], ["type", "video/webm", 3, "src"], [1, "w-full", "lg:w-1/2"], [1, "text-sm", "lg:text-lg", "text-white", "mb-2"], [1, "text-sm", "lg:text-md", "text-gray-300", "mb-2"], [1, "text-sm", "lg:text-md", "text-blue-400", "hover:text-blue-300"], ["target", "_blank", 3, "href"]], template: function ProjectComponent_Template(rf, ctx) {
     if (rf & 1) {
       \u0275\u0275elementStart(0, "p", 0);
       \u0275\u0275text(1);
@@ -35380,15 +35380,15 @@ var ProjectComponent = class _ProjectComponent {
       \u0275\u0275element(5, "source", 4)(6, "source", 5);
       \u0275\u0275text(7, " Your browser does not support the video tag. ");
       \u0275\u0275elementEnd()();
-      \u0275\u0275elementStart(8, "div", 2)(9, "p", 6);
+      \u0275\u0275elementStart(8, "div", 6)(9, "p", 7);
       \u0275\u0275text(10);
       \u0275\u0275elementEnd();
-      \u0275\u0275elementStart(11, "p", 7)(12, "strong");
+      \u0275\u0275elementStart(11, "p", 8)(12, "strong");
       \u0275\u0275text(13, "Technologies Used:");
       \u0275\u0275elementEnd();
       \u0275\u0275text(14);
       \u0275\u0275elementEnd();
-      \u0275\u0275elementStart(15, "p", 8)(16, "a", 9);
+      \u0275\u0275elementStart(15, "p", 9)(16, "a", 10);
       \u0275\u0275text(17, "View Project");
       \u0275\u0275elementEnd()()()();
     }
@@ -35437,14 +35437,14 @@ var ProjectsComponent = class _ProjectsComponent {
       stack: ["C language"],
       link: "https://github.com/uness7/cub3d",
       video: "./media/vids/cub3d_review_2.mp4"
+    },
+    {
+      title: "Minishell - a basic version of bash",
+      description: "A personal portfolio to showcase my work and skills.",
+      stack: ["C language", "Unix programming"],
+      link: "https://github.com/uness7/minishell",
+      video: "./media/vids/cub3d_review_2.mp4"
     }
-    // {
-    //   title: 'Minishell - a basic version of bash',
-    //   description: 'A personal portfolio to showcase my work and skills.',
-    //   stack: ['C language', 'Unix programming'],
-    //   link: 'https://github.com/uness7/minishell',
-    //   video: './media/vids/cub3d_review_2.mp4',
-    // },
     // {
     //   title: 'Inception - a dockerized wordpress website',
     //   description: 'A personal portfolio to showcase my work and skills.',
@@ -35458,9 +35458,9 @@ var ProjectsComponent = class _ProjectsComponent {
   static \u0275fac = function ProjectsComponent_Factory(__ngFactoryType__) {
     return new (__ngFactoryType__ || _ProjectsComponent)();
   };
-  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _ProjectsComponent, selectors: [["app-projects"]], decls: 2, vars: 1, consts: [[1, "container", "mx-auto", "mt-8", "p-4", "grid", "grid-cols-1", "lg:grid-cols-2", "gap-8"], ["class", "flex flex-col rounded-lg bg-gray-800 p-6 text-white", 3, "project", 4, "ngFor", "ngForOf"], [1, "flex", "flex-col", "rounded-lg", "bg-gray-800", "p-6", "text-white", 3, "project"]], template: function ProjectsComponent_Template(rf, ctx) {
+  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _ProjectsComponent, selectors: [["app-projects"]], decls: 2, vars: 1, consts: [[1, "h-full", "container", "mx-auto", "mt-8", "p-4", "grid", "grid-cols-1", "lg:grid-cols-2", "gap-8"], ["class", "flex flex-col justify-center items-center h-[400px] rounded-lg bg-gray-800 p-6 text-white", 3, "project", 4, "ngFor", "ngForOf"], [1, "flex", "flex-col", "justify-center", "items-center", "h-[400px]", "rounded-lg", "bg-gray-800", "p-6", "text-white", 3, "project"]], template: function ProjectsComponent_Template(rf, ctx) {
     if (rf & 1) {
-      \u0275\u0275elementStart(0, "div", 0);
+      \u0275\u0275elementStart(0, "section", 0);
       \u0275\u0275template(1, ProjectsComponent_app_project_1_Template, 1, 1, "app-project", 1);
       \u0275\u0275elementEnd();
     }
@@ -35474,46 +35474,89 @@ var ProjectsComponent = class _ProjectsComponent {
   (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(ProjectsComponent, { className: "ProjectsComponent", filePath: "src/app/pages/projects/projects.component.ts", lineNumber: 14 });
 })();
 
+// src/app/components/skills/skills.component.ts
+var SkillsComponent = class _SkillsComponent {
+  constructor() {
+  }
+  static \u0275fac = function SkillsComponent_Factory(__ngFactoryType__) {
+    return new (__ngFactoryType__ || _SkillsComponent)();
+  };
+  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _SkillsComponent, selectors: [["app-skills"]], decls: 23, vars: 0, consts: [[1, "flex", "flex-col", "items-center", "justify-center", "h-1/6", "px-14"], [1, "flex", "items-center", "justify-center"], [1, "text-sm", "lg:text-4xl", "px-auto", "py-4", "font-bold"], [1, "grid", "grid-cols-2", "lg:grid-cols-6", "gap-4"], [1, "w-[80px]", "h-[80px]", "bg-gray-800", "p-4", "rounded-lg", "shadow-md", "hover:scale-105", "transition"], [1, "text-xl", "font-medium", "items-center"], ["width", "48px", "data", \u0275\u0275trustConstantResourceUrl`media/python/icons8-python-100.svg`, "type", "image/svg+xml", 1, "mx-auto"], [1, "text-xl", "font-medium"], ["width", "48px", "data", \u0275\u0275trustConstantResourceUrl`media/ts/icons8-typescript-96.svg`, "type", "image/svg+xml", 1, "mx-auto"], ["width", "48px", "data", \u0275\u0275trustConstantResourceUrl`media/django/icons8-django-a-high-level-python-web-framework-that-encourages-rapid-development-100.svg`, "type", "image/svg+xml", 1, "mx-auto"], ["width", "48px", "data", \u0275\u0275trustConstantResourceUrl`media/angular/icons8-angular-100.svg`, "type", "image/svg+xml", 1, "mx-auto"], ["width", "48px", "data", \u0275\u0275trustConstantResourceUrl`media/docker/icons8-docker-a-set-of-coupled-software-as-a-service-100.svg`, "type", "image/svg+xml", 1, "mx-auto"], [1, "bg-gray-800", "p-4", "rounded-lg", "shadow-md", "hover:scale-105", "transition"], ["width", "48px", "src", "media/git/icons8-git-100.png", "height", "48px", 1, "mx-auto"]], template: function SkillsComponent_Template(rf, ctx) {
+    if (rf & 1) {
+      \u0275\u0275elementStart(0, "section", 0)(1, "div", 1)(2, "h1", 2);
+      \u0275\u0275text(3, "Skills");
+      \u0275\u0275elementEnd()();
+      \u0275\u0275elementStart(4, "div", 3)(5, "div", 4)(6, "p", 5);
+      \u0275\u0275element(7, "object", 6);
+      \u0275\u0275elementEnd()();
+      \u0275\u0275elementStart(8, "div", 4)(9, "p", 7);
+      \u0275\u0275element(10, "object", 8);
+      \u0275\u0275elementEnd()();
+      \u0275\u0275elementStart(11, "div", 4)(12, "p", 7);
+      \u0275\u0275element(13, "object", 9);
+      \u0275\u0275elementEnd()();
+      \u0275\u0275elementStart(14, "div", 4)(15, "p", 7);
+      \u0275\u0275element(16, "object", 10);
+      \u0275\u0275elementEnd()();
+      \u0275\u0275elementStart(17, "div", 4)(18, "p", 7);
+      \u0275\u0275element(19, "object", 11);
+      \u0275\u0275elementEnd()();
+      \u0275\u0275elementStart(20, "div", 12)(21, "p", 5);
+      \u0275\u0275element(22, "img", 13);
+      \u0275\u0275elementEnd()()()();
+    }
+  }, encapsulation: 2 });
+};
+(() => {
+  (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(SkillsComponent, { className: "SkillsComponent", filePath: "src/app/components/skills/skills.component.ts", lineNumber: 11 });
+})();
+
+// src/app/components/intro/intro.component.ts
+var IntroComponent = class _IntroComponent {
+  constructor() {
+  }
+  static \u0275fac = function IntroComponent_Factory(__ngFactoryType__) {
+    return new (__ngFactoryType__ || _IntroComponent)();
+  };
+  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _IntroComponent, selectors: [["app-intro"]], decls: 9, vars: 0, consts: [[1, "flex", "flex-col", "items-center", "justify-center", "w-full", "px-8", "pt-14"], [1, "flex", "flex-col", "justify-center", "items-center", "gap-8"], ["src", "media/IMG_20241211_170400_683.webp", "alt", "My profil picture", 1, "w-[200px]", "lg:w-[full/2]", "rounded-full", "mb-4"], [1, "w-[300px]", "md:w-[600px]", "lg:w-[900px]", "mx-auto", "text-center"], [1, "text-xl", "lg:text-4xl", "font-bold", "mb-6"], [1, "text-xl", "text-left", "lg:text-2xl", "mb-8"]], template: function IntroComponent_Template(rf, ctx) {
+    if (rf & 1) {
+      \u0275\u0275elementStart(0, "section", 0)(1, "div", 1)(2, "div");
+      \u0275\u0275element(3, "img", 2);
+      \u0275\u0275elementEnd();
+      \u0275\u0275elementStart(4, "div", 3)(5, "h1", 4);
+      \u0275\u0275text(6, "Hello \u{1F44B}, I'm Youness");
+      \u0275\u0275elementEnd();
+      \u0275\u0275elementStart(7, "p", 5);
+      \u0275\u0275text(8, " I'm a 42 student, and passionate about programming and crafting software. I am familiar with C/C++, and I love Python and Typescript! I also love solving leetcode challenges! ");
+      \u0275\u0275elementEnd()()()();
+    }
+  }, encapsulation: 2 });
+};
+(() => {
+  (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(IntroComponent, { className: "IntroComponent", filePath: "src/app/components/intro/intro.component.ts", lineNumber: 11 });
+})();
+
 // src/app/pages/home/home.component.ts
 var HomeComponent = class _HomeComponent {
   ProjectsComponent = ProjectsComponent;
   static \u0275fac = function HomeComponent_Factory(__ngFactoryType__) {
     return new (__ngFactoryType__ || _HomeComponent)();
   };
-  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _HomeComponent, selectors: [["app-home"]], decls: 28, vars: 0, consts: [[1, "flex", "flex-col", "items-center", "justify-center", "h-screen", "px-14", "py-16"], [1, "max-w-4xl", "mx-auto", "text-center"], [1, "text-4xl", "font-bold", "mb-6"], [1, "text-xl", "leading-relaxed", "mb-8"], [1, "grid", "grid-cols-2", "md:grid-cols-3", "gap-4"], [1, "bg-gray-800", "p-4", "rounded-lg", "shadow-md", "hover:scale-105", "transition"], [1, "text-xl", "font-medium", "items-center"], ["data", \u0275\u0275trustConstantResourceUrl`media/python/icons8-python-100.svg`, "type", "image/svg+xml", 1, "mx-auto"], [1, "text-xl", "font-medium"], ["data", \u0275\u0275trustConstantResourceUrl`media/ts/icons8-typescript-96.svg`, "type", "image/svg+xml", 1, "mx-auto"], ["data", \u0275\u0275trustConstantResourceUrl`media/django/icons8-django-a-high-level-python-web-framework-that-encourages-rapid-development-100.svg`, "type", "image/svg+xml", 1, "mx-auto"], ["data", \u0275\u0275trustConstantResourceUrl`media/angular/icons8-angular-100.svg`, "type", "image/svg+xml", 1, "mx-auto"], ["data", \u0275\u0275trustConstantResourceUrl`media/docker/icons8-docker-a-set-of-coupled-software-as-a-service-100.svg`, "type", "image/svg+xml", 1, "mx-auto"], ["src", "media/git/icons8-git-100.png", "width", "100", "height", "100", 1, "mx-auto"], [1, "my-8"], ["routerLink", "/projects", 1, "bg-gray-500", "hover:bg-gray-700", "text-white", "text-lg", "font-bold", "py-2", "px-8", "rounded"]], template: function HomeComponent_Template(rf, ctx) {
+  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _HomeComponent, selectors: [["app-home"]], decls: 5, vars: 0, consts: [[1, "my-9", "flex", "justify-center", "items-center"], ["routerLink", "/projects", 1, "bg-gray-600", "hover:bg-gray-700", "text-white", "text-lg", "font-bold", "py-2", "px-8", "rounded"]], template: function HomeComponent_Template(rf, ctx) {
     if (rf & 1) {
-      \u0275\u0275elementStart(0, "section", 0)(1, "div", 1)(2, "h1", 2);
-      \u0275\u0275text(3, "Hello \u{1F44B}, I'm Youness Zioual");
-      \u0275\u0275elementEnd();
-      \u0275\u0275elementStart(4, "p", 3);
-      \u0275\u0275text(5, " I'm a 42 student, and passionate about programming and crafting software. I am familiar with C/C++, and I love Python and Typescript! I also love solving leetcode challenges! ");
-      \u0275\u0275elementEnd();
-      \u0275\u0275elementStart(6, "div", 4)(7, "div", 5)(8, "p", 6);
-      \u0275\u0275element(9, "object", 7);
+      \u0275\u0275element(0, "app-intro")(1, "app-skills");
+      \u0275\u0275elementStart(2, "div", 0)(3, "button", 1);
+      \u0275\u0275text(4, " See projects ");
       \u0275\u0275elementEnd()();
-      \u0275\u0275elementStart(10, "div", 5)(11, "p", 8);
-      \u0275\u0275element(12, "object", 9);
-      \u0275\u0275elementEnd()();
-      \u0275\u0275elementStart(13, "div", 5)(14, "p", 8);
-      \u0275\u0275element(15, "object", 10);
-      \u0275\u0275elementEnd()();
-      \u0275\u0275elementStart(16, "div", 5)(17, "p", 8);
-      \u0275\u0275element(18, "object", 11);
-      \u0275\u0275elementEnd()();
-      \u0275\u0275elementStart(19, "div", 5)(20, "p", 8);
-      \u0275\u0275element(21, "object", 12);
-      \u0275\u0275elementEnd()();
-      \u0275\u0275elementStart(22, "div", 5)(23, "p", 6);
-      \u0275\u0275element(24, "img", 13);
-      \u0275\u0275elementEnd()()()();
-      \u0275\u0275elementStart(25, "div", 14)(26, "button", 15);
-      \u0275\u0275text(27, " See projects ");
-      \u0275\u0275elementEnd()()();
     }
-  }, dependencies: [RouterLink], encapsulation: 2 });
+  }, dependencies: [
+    RouterLink,
+    SkillsComponent,
+    IntroComponent
+  ], encapsulation: 2 });
 };
 (() => {
-  (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(HomeComponent, { className: "HomeComponent", filePath: "src/app/pages/home/home.component.ts", lineNumber: 14 });
+  (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(HomeComponent, { className: "HomeComponent", filePath: "src/app/pages/home/home.component.ts", lineNumber: 18 });
 })();
 
 // src/app/pages/blogs/blogs.component.ts
@@ -35551,7 +35594,7 @@ var NavbarComponent = class _NavbarComponent {
   static \u0275fac = function NavbarComponent_Factory(__ngFactoryType__) {
     return new (__ngFactoryType__ || _NavbarComponent)();
   };
-  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _NavbarComponent, selectors: [["app-navbar"]], decls: 14, vars: 0, consts: [[1, "text-white", "bg-gray-800"], [1, "container", "mx-auto", "px-4"], [1, "flex", "justify-between", "items-center", "py-4"], ["routerLink", "/home", 1, "text-2xl", "italic", "font-bold"], ["id", "menu", 1, "hidden", "lg:flex", "space-x-4", "items-center"], ["href", "https://www.linkedin.com/in/yzioual", "target", "_blank", "rel", "noopener noreferrer", 1, "hover:text-gray-300"], ["src", "media/icons8-linkedin-windows-11-color/icons8-linkedin-48.svg", "alt", "LinkedIn", 1, "w-8", "h-8"], ["href", "https://www.github.com/uness7/", "target", "_blank", "rel", "noopener noreferrer", 1, "hover:text-gray-300"], ["src", "media/git/icons8-git-94.png", "alt", "LinkedIn", 1, "w-8", "h-8"], ["routerLink", "/projects", 1, "hover:text-gray-300"], ["routerLink", "/blog", 1, "hover:text-gray-300"]], template: function NavbarComponent_Template(rf, ctx) {
+  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _NavbarComponent, selectors: [["app-navbar"]], decls: 14, vars: 0, consts: [[1, "text-white", "bg-gray-800"], [1, "container", "mx-auto", "px-4"], [1, "flex", "justify-between", "items-center", "py-4"], ["routerLink", "/home", 1, "text-sm", "md:text-md", "lg:text-2xl", "italic", "font-bold"], ["id", "menu", 1, "flex", "justify-evenly", "lg:flex-row", "space-x-4", "items-center"], ["href", "https://www.linkedin.com/in/yzioual", "target", "_blank", "rel", "noopener noreferrer", 1, "hover:text-gray-300"], ["src", "media/icons8-linkedin-windows-11-color/icons8-linkedin-48.svg", "alt", "LinkedIn", 1, "w-8", "h-8"], ["href", "https://www.github.com/uness7/", "target", "_blank", "rel", "noopener noreferrer", 1, "hover:text-gray-300"], ["src", "media/git/icons8-git-94.png", "alt", "LinkedIn", 1, "w-8", "h-8"], ["routerLink", "/projects", 1, "hover:text-gray-300"], ["routerLink", "/blog", 1, "hover:text-gray-300"]], template: function NavbarComponent_Template(rf, ctx) {
     if (rf & 1) {
       \u0275\u0275elementStart(0, "nav", 0)(1, "div", 1)(2, "div", 2)(3, "a", 3);
       \u0275\u0275text(4, "yzioual");
@@ -35598,7 +35641,7 @@ var AppComponent = class _AppComponent {
   static \u0275fac = function AppComponent_Factory(__ngFactoryType__) {
     return new (__ngFactoryType__ || _AppComponent)();
   };
-  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _AppComponent, selectors: [["app-root"]], decls: 11, vars: 0, consts: [["lang", "en"], ["charset", "UTF-8"], ["name", "viewport", "content", "width=device-width, initial-scale=1.0"], [1, "sticky", "top-0", "z-50", "bg-amber-800"], [1, "h-screen", "relative"]], template: function AppComponent_Template(rf, ctx) {
+  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _AppComponent, selectors: [["app-root"]], decls: 11, vars: 0, consts: [["lang", "en"], ["charset", "UTF-8"], ["name", "viewport", "content", "width=device-width, initial-scale=1.0"], [1, "sticky", "top-0", "z-50"], [1, "flex", "flex-col", "justify-center", "items-center", "min-h-screen", "relative"]], template: function AppComponent_Template(rf, ctx) {
     if (rf & 1) {
       \u0275\u0275elementStart(0, "html", 0)(1, "head");
       \u0275\u0275element(2, "meta", 1)(3, "meta", 2);
