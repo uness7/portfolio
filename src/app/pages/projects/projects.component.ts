@@ -28,13 +28,13 @@ export class ProjectsComponent {
       link: 'https://github.com/uness7/cub3d',
       video: './media/vids/cub3d_review_2.mp4',
     },
-    // {
-    //   title: 'Minishell - a basic version of bash',
-    //   description: 'A personal portfolio to showcase my work and skills.',
-    //   stack: ['C language', 'Unix programming'],
-    //   link: 'https://github.com/uness7/minishell',
-    //   video: './media/vids/cub3d_review_2.mp4',
-    // },
+    {
+      title: 'Minishell - a basic version of bash',
+      description: 'A personal portfolio to showcase my work and skills.',
+      stack: ['C language', 'Unix programming'],
+      link: 'https://github.com/uness7/minishell',
+      video: './media/vids/cub3d_review_2.mp4',
+    },
     // {
     //   title: 'Inception - a dockerized wordpress website',
     //   description: 'A personal portfolio to showcase my work and skills.',
