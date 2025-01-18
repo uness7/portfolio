@@ -30,10 +30,10 @@ export class ProjectsComponent {
     },
     {
       title: 'Minishell - a basic version of bash',
-      description: 'A personal portfolio to showcase my work and skills.',
+      description: 'This project is about creating a simple shell that mimics Bash. We learned a lot about processes and file descriptors.',
       stack: ['C language', 'Unix programming'],
       link: 'https://github.com/uness7/minishell',
-      video: './media/vids/cub3d_review_2.mp4',
+      video: './media/vids/minishell_review.mp4',
     },
     // {
     //   title: 'Inception - a dockerized wordpress website',

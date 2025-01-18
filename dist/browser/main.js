@@ -35371,7 +35371,7 @@ var ProjectComponent = class _ProjectComponent {
   static \u0275fac = function ProjectComponent_Factory(__ngFactoryType__) {
     return new (__ngFactoryType__ || _ProjectComponent)();
   };
-  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _ProjectComponent, selectors: [["app-project"]], inputs: { project: "project" }, decls: 18, vars: 6, consts: [[1, "font-bold", "text-xl", "lg:text-3xl", "w-full", "text-white", "lg:mb-4"], [1, "flex", "flex-col", "lg:flex-row-reverse", "gap-6"], [1, "w-full", "h-[210px]", "lg:w-1/2"], ["controls", "", 1, "w-[250px]", "lg:w-full", "h-[200px]", "lg:h-auto", "rounded-lg", "shadow-lg"], ["type", "video/mp4", 3, "src"], ["type", "video/webm", 3, "src"], [1, "w-full", "lg:w-1/2"], [1, "text-sm", "lg:text-lg", "text-white", "mb-2"], [1, "text-sm", "lg:text-md", "text-gray-300", "mb-2"], [1, "text-sm", "lg:text-md", "text-blue-400", "hover:text-blue-300"], ["target", "_blank", 3, "href"]], template: function ProjectComponent_Template(rf, ctx) {
+  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _ProjectComponent, selectors: [["app-project"]], inputs: { project: "project" }, decls: 18, vars: 6, consts: [[1, "font-bold", "text-xl", "py-1", "lg:text-3xl", "w-full", "text-white", "lg:mb-4", "sm:text-lg"], [1, "flex", "flex-col", "lg:flex-row-reverse", "gap-6", "sm:gap-3"], [1, "w-full", "h-[210px]", "lg:w-1/2", "sm:h-[180px]"], ["controls", "", 1, "w-[250px]", "lg:w-full", "h-[200px]", "lg:h-auto", "rounded-lg", "shadow-lg", "sm:w-full", "sm:h-[170px]", "sm:object-cover"], ["type", "video/mp4", 3, "src"], ["type", "video/webm", 3, "src"], [1, "w-full", "lg:w-1/2"], [1, "text-sm", "lg:text-lg", "text-white", "mb-2", "sm:text-xs"], [1, "text-sm", "lg:text-md", "text-gray-300", "mb-2", "sm:text-xs"], [1, "text-sm", "lg:text-md", "text-blue-400", "hover:text-blue-300", "sm:text-xs"], ["target", "_blank", 3, "href"]], template: function ProjectComponent_Template(rf, ctx) {
     if (rf & 1) {
       \u0275\u0275elementStart(0, "p", 0);
       \u0275\u0275text(1);
@@ -35518,7 +35518,7 @@ var IntroComponent = class _IntroComponent {
   static \u0275fac = function IntroComponent_Factory(__ngFactoryType__) {
     return new (__ngFactoryType__ || _IntroComponent)();
   };
-  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _IntroComponent, selectors: [["app-intro"]], decls: 9, vars: 0, consts: [[1, "flex", "flex-col", "items-center", "justify-center", "w-full", "px-8", "pt-14"], [1, "flex", "flex-col", "justify-center", "items-center", "gap-8"], ["src", "media/IMG_20241211_170400_683.webp", "alt", "My profil picture", 1, "w-[200px]", "lg:w-[full/2]", "rounded-full", "mb-4"], [1, "w-[300px]", "md:w-[600px]", "lg:w-[900px]", "mx-auto", "text-center"], [1, "text-xl", "lg:text-4xl", "font-bold", "mb-6"], [1, "text-xl", "text-left", "lg:text-2xl", "mb-8"]], template: function IntroComponent_Template(rf, ctx) {
+  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _IntroComponent, selectors: [["app-intro"]], decls: 16, vars: 0, consts: [[1, "flex", "flex-col", "items-center", "justify-center", "w-full", "px-8", "pt-14"], [1, "flex", "flex-col", "justify-center", "items-center", "gap-8"], ["src", "media/IMG_20241211_170400_683.webp", "alt", "My profil picture", 1, "w-[200px]", "lg:w-[full/2]", "rounded-full", "mb-4"], [1, "w-[300px]", "md:w-[600px]", "lg:w-[900px]", "mx-auto", "text-center"], [1, "text-xl", "lg:text-4xl", "font-bold", "mb-6"], [1, "text-xl", "text-left", "lg:text-2xl", "mb-8"], ["href", "https://www.42lehavre.fr", 1, "italic", "underline"], ["href", "https://leetcode.com/u/uness7/", 1, "italic", "underline"]], template: function IntroComponent_Template(rf, ctx) {
     if (rf & 1) {
       \u0275\u0275elementStart(0, "section", 0)(1, "div", 1)(2, "div");
       \u0275\u0275element(3, "img", 2);
@@ -35527,8 +35527,17 @@ var IntroComponent = class _IntroComponent {
       \u0275\u0275text(6, "Hello \u{1F44B}, I'm Youness");
       \u0275\u0275elementEnd();
       \u0275\u0275elementStart(7, "p", 5);
-      \u0275\u0275text(8, " I'm a 42 student, and passionate about programming and crafting software. I am familiar with C/C++, and I love Python and Typescript! I also love solving leetcode challenges! ");
-      \u0275\u0275elementEnd()()()();
+      \u0275\u0275text(8, " I'm a ");
+      \u0275\u0275elementStart(9, "a", 6);
+      \u0275\u0275text(10, "42 student");
+      \u0275\u0275elementEnd();
+      \u0275\u0275text(11, ", and passionate about programming and crafting software. I am familiar with C/C++, and I love Python and Typescript! ");
+      \u0275\u0275elementEnd();
+      \u0275\u0275elementStart(12, "p", 5);
+      \u0275\u0275text(13, " I also love solving ");
+      \u0275\u0275elementStart(14, "a", 7);
+      \u0275\u0275text(15, " leetcode challenges! ");
+      \u0275\u0275elementEnd()()()()();
     }
   }, encapsulation: 2 });
 };
@@ -35564,7 +35573,7 @@ var BlogsComponent = class _BlogsComponent {
   static \u0275fac = function BlogsComponent_Factory(__ngFactoryType__) {
     return new (__ngFactoryType__ || _BlogsComponent)();
   };
-  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _BlogsComponent, selectors: [["app-blogs"]], decls: 3, vars: 0, consts: [[1, "flex", "justify-center", "items-center", "text-white", "text-4xl", "mx-auto", "h-screen"]], template: function BlogsComponent_Template(rf, ctx) {
+  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _BlogsComponent, selectors: [["app-blogs"]], decls: 3, vars: 0, consts: [[1, "flex", "justify-center", "items-center", "text-white", "text-sm", "lg:text-4xl", "mx-auto", "h-screen"]], template: function BlogsComponent_Template(rf, ctx) {
     if (rf & 1) {
       \u0275\u0275elementStart(0, "div", 0)(1, "p");
       \u0275\u0275text(2, " I will be adding blogs here soon \u23F3 ");
